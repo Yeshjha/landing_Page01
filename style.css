@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  /* background-color: rgb(43, 42, 42); */
+}
+header {
+  /* background-color: orange; */
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navBar {
+  /* background-color: red; */
+  width: 96%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+#nav_1 {
+  /* background-color: blue; */
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.headingName {
+  font-size: 2.5em;
+}
+.nav-text {
+  font-size: 1.2em;
+}
+#nav_2 {
+  /* background-color: rgb(91, 2, 91); */
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-buttn {
+  height: 80%;
+  padding: 2%;
+  width: 80%;
+  font-size: 1em;
+  border-radius: 50px;
+  border: none;
+}
+
+.bgc-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+main {
+  height: 80%;
+  width: 100%;
+}
+.container {
+  /* background-color: red; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#box-1 {
+  /* background-color: blue; */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#content-box-1 {
+  /* background-color: aquamarine; */
+  width: 60%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4%;
+  border-radius: 25px;
+  border: 1px solid white;
+  z-index: 1;
+}
+#content-box-2 {
+  /* background-color: rgb(216, 154, 29); */
+  width: 60%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4%;
+  border-radius: 25px;
+  border: 1px solid white;
+  z-index: 1;
+}
+#box-2 {
+  /* background-color: rgb(204, 204, 255); */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#content-box-3 {
+  /* background-color: aquamarine; */
+  width: 60%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4%;
+  border-radius: 25px;
+  border: 1px solid white;
+  z-index: 1;
+  /* transform: rotateY(25deg); */
+}
+#content-box-4 {
+  /* background-color: rgb(216, 154, 29); */
+  width: 60%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4%;
+  border-radius: 25px;
+  border: 1px solid white;
+  z-index: 1;
+  /* transform: rotateY(20deg); */
+}
+.heading-num {
+  color: rgb(241, 146, 241);
+  font-size: 2.5em;
+}
+.para {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  color: white;
+   text-align: center;
+}
+.link-text{
+    text-decoration: none;
+    color: white;
+}
+.link-bttn{
+    width: 100% ;
+    height: 100%;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+  
+}
+
+.link-text:hover{
+   z-index: 99;
+   background-color: #ffffff2a;
+   backdrop-filter: blur(10px);
+   height: 50%;
+   width: 14%;
+   transform: scale(1.7);
+   font-size: 12px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 30px;
+   transition: 0.3s ease-in-out;
+}
+#text-2:hover{
+      z-index: 99;
+   background-color: #ffffff2a;
+   backdrop-filter: blur(10px);
+   height: 50%;
+   width: 20%;
+   transform: scale(1.7);
+   font-size: 12px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 30px;
+   transition: 0.3s ease-in-out;
+}
+.visit-box{
+    /* background-color: #fff; */
+    height: 80%;
+    width: 18%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+.website-link{
+    text-decoration: none;
+    height: 15%;
+    width: 90%;
+    background-color: rgba(122, 121, 121, 0.725);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.visit-text{
+    color: white;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.website-link:hover{
+    transform: scale(1.1);
+    z-index: 11;
+    backdrop-filter: blur(10px);
+    transition: 0.2s ease-in-out;
+}
